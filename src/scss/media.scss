@@ -1,0 +1,9 @@
+ $phone: 320px;
+ $basefontsize:20px;
+ $containerwidth:1440px;
+
+@mixin phone {
+     @media screen and (max-width: $phone) {
+        @content;
+    }
+ }
